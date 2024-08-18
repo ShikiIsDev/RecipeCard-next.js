@@ -64,6 +64,30 @@
       --input: 217.2 32.6% 17.5%;
       --ring: 212.7 26.8% 83.9%;
     }
+
+    .pattern1 {
+      background-image: url('/pattern1.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .pattern2 {
+      background-image: url('/pattern2.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .pattern3 {
+      background-image: url('/pattern3.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .pattern4 {
+      background-image: url('/pattern4.jpg');
+      background-size: cover;
+      background-position: center;
+    }
   }
 
   @layer base {
