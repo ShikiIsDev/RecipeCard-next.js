@@ -20,7 +20,7 @@ import { useRef} from "react";
 
 export default function Home() {
 
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   const playAudio = async () => {
     try {
